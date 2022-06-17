@@ -13,6 +13,14 @@ let foo = {
     role:"admin"
 };
 let result = [];
+let prueba = Object.entries(foo)
+console.log(prueba)
+
+
+for (let i= 0;i < prueba.length;i++){
+    result.push(prueba[i])
+}
+console.log(result)
 
 
 //export result

@@ -21,7 +21,12 @@ let bar = {
     skills:["javascript", "html", "css", "python", "flask", "react", "redux"],
     alias:"Super Alias"
 }
-let result;
+
+let result; 
+result = { ...foo , ...bar};
+console.log(result)
+
+
 
 
 //export result

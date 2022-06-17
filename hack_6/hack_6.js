@@ -15,7 +15,8 @@ let result = {
     name:"foo",
     role:"admin"
 };
-
- 
+result.name = `${result.name.charAt().toUpperCase()}oo`
+result.role =`${result.role.toUpperCase()}`
+console.log(result) 
 //export result
 module.exports = result; 

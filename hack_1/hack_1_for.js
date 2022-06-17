@@ -9,6 +9,12 @@
 let arr = [{a:1},{b:2},{c:3},{d:4},{e:5}];
 let result = [];
 
+let len = arr.length
 
-//export result
+for (let index = 0; index < len; index++) { 
+    result.push(Object.values(arr[index])) 
+}
+result = result.flat() 
+console.log(result)
+ 
 module.exports = result;
